@@ -1,1 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Calculator</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="container">
+        <p>Calculator</p>
+    <input id="Display" type="text" readonly>
 
+    <div class="grid">
+<button class="items"  onClick="clearScreen()" >AC</button>
+<button  class="items" onClick="del()" >Del</button>
+<button class="items"  onClick="appendKeys('*')" >*</button>
+<button class="items"  onClick="appendKeys('7')" >7</button>
+<button class="items"  onClick="appendKeys('8')" >8</button>
+<button  class="items" onClick="appendKeys('9')" >9</button>
+<button  class="items" onClick="appendKeys('+')" >+</button>
+<button  class="items" onClick="appendKeys('4')" >4</button>
+<button  class="items" onClick="appendKeys('5')" >5</button>
+<button  class="items" onClick="appendKeys('6')" >6</button>
+<button  class="items" onClick="appendKeys('-')" >-</button>
+<button  class="items" onClick="appendKeys('1')" >1</button>
+<button  class="items" onClick="appendKeys('2')" >2</button>
+<button  class="items" onClick="appendKeys('3')" >3</button>
+<button  class="items" onClick="appendKeys('/')" >/</button>
+<button  class="items" onClick="appendKeys('.')" >.</button>
+<button class="items"  onClick="appendKeys('0')" >0</button>
+
+<button  class="items" onClick="calculate()" >=</button>
+</div>
+<small>&copy; 2025 Gilbert. All rights reserved</small>
+</div>
+
+<script src="Script.js"></script>
+</body>
+</html>
